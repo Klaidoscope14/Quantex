@@ -1,0 +1,70 @@
+# ---- Build artifacts ----
+build/
+cmake-build-*/
+CMakeCache.txt
+CMakeFiles/
+Makefile
+*.o
+*.obj
+*.out
+*.exe
+*.dll
+*.so
+*.a
+*.lib
+
+# ---- Dependency / Package managers ----
+conanbuildinfo.*
+conaninfo.txt
+conan.lock
+*.cmake_autogen
+*.cmake
+*.mod
+*.manifest
+
+# ---- OS / IDE files ----
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+*.bak
+
+# ---- Logs and temporary files ----
+*.log
+*.tmp
+*.temp
+backtest.log
+
+# ---- Data and API keys ----
+configs/api_keys.json
+configs/*.key
+configs/*.secret
+configs/*.token
+
+# ---- Reports ----
+reports/*.csv
+reports/*.png
+reports/*.txt
+reports/*.json
+
+# ---- Python cache ----
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.venv/
+venv/
+env/
+
+# ---- Generated outputs ----
+equity_curve.csv
+trade_log.csv
+
+# ---- Misc ----
+*.zip
+*.tar
+*.gz
+*.7z

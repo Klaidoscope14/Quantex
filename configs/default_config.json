@@ -1,0 +1,10 @@
+{
+  "initial_capital": 100000.0,
+  "position_size": 10000.0,
+  "commission_per_trade": 1.0,
+  "slippage_pct": 0.0005,
+  "short_window": 50,
+  "long_window": 200,
+  "data_dir": "data",
+  "symbol": "AAPL"
+}

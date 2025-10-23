@@ -1,0 +1,14 @@
+[requires]
+nlohmann_json/3.11.2
+libcurl/8.2.1
+
+[generators]
+CMakeDeps
+CMakeToolchain
+
+[options]
+libcurl:shared=True
+
+[imports]
+bin, *.dll -> ./bin
+lib, *.dylib -> ./lib
